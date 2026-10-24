@@ -2,21 +2,14 @@
 
 ## Linux Kernel
 
-Linux is created by Linus Torvalds and developed by the global Linux kernel
-community.
+Linux was created by Linus Torvalds and is developed by the global Linux kernel community.
 
 ## Tulip Project
 
-Tulip contributes:
-- configuration
-- hardening policy
-- memory policy
-- validation
-- testing
-- documentation
-- release engineering
-- integration
+Tulip is an independent Linux kernel engineering project created and maintained by haniffzain.
 
-Engineering and documentation workflows have been developed with
-AI-assisted analysis and testing. Copyright ownership remains with human
-authors and upstream projects.
+Contact: haniffsp@proton.me
+
+Tulip work includes configuration, hardening policy, memory policy, validation, testing, documentation, release engineering and integration.
+
+Engineering workflows have been developed with AI-assisted analysis and testing. Copyright ownership remains with human authors and upstream projects.
