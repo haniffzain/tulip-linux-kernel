@@ -1,139 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="760" viewBox="0 0 1920 760" role="img" aria-labelledby="title desc">
   <title id="title">Linux 7.3 Tulip growth banner</title>
-  <desc id="desc">A visual journey from vanilla Linux 7.3 through policy, configuration, validation and engineering into the Tulip kernel project.</desc>
+  <desc id="desc">A crisp vector hero showing Tulip growing from upstream Linux 7.3 through policy, configuration, validation and engineering.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e9f4ff"/>
-      <stop offset="0.52" stop-color="#fffaf1"/>
-      <stop offset="1" stop-color="#fff0dc"/>
+      <stop offset="0" stop-color="#dceeff"/>
+      <stop offset="0.55" stop-color="#fff8ec"/>
+      <stop offset="1" stop-color="#ffe8c9"/>
     </linearGradient>
-    <linearGradient id="tulipText" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff3f5f"/>
-      <stop offset="1" stop-color="#d9156f"/>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4f67"/>
+      <stop offset="0.48" stop-color="#ff264f"/>
+      <stop offset="1" stop-color="#cc0d68"/>
     </linearGradient>
     <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff5b54"/>
-      <stop offset="0.55" stop-color="#f02e48"/>
-      <stop offset="1" stop-color="#c91752"/>
+      <stop offset="0" stop-color="#ff765e"/>
+      <stop offset="0.5" stop-color="#f7364e"/>
+      <stop offset="1" stop-color="#c81355"/>
     </linearGradient>
     <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#88bd42"/>
-      <stop offset="1" stop-color="#3e7b2d"/>
+      <stop offset="0" stop-color="#9bcc4b"/>
+      <stop offset="1" stop-color="#377329"/>
     </linearGradient>
     <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#765038"/>
-      <stop offset="1" stop-color="#34241e"/>
+      <stop offset="0" stop-color="#74503b"/>
+      <stop offset="1" stop-color="#2c211e"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2c1c23" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#1c2430" flood-opacity="0.18"/>
     </filter>
   </defs>
 
-  <rect width="1600" height="680" rx="30" fill="url(#sky)"/>
-  <circle cx="1390" cy="120" r="72" fill="#ffd77b" opacity="0.65"/>
-  <path d="M0 405 C180 320 330 390 475 350 C640 305 795 390 970 345 C1165 295 1350 365 1600 290 L1600 500 L0 500 Z" fill="#bdd8d0" opacity="0.46"/>
-  <path d="M0 450 C190 390 340 430 500 405 C690 375 850 445 1045 400 C1240 355 1405 405 1600 360 L1600 500 L0 500 Z" fill="#9bbda6" opacity="0.42"/>
+  <rect width="1920" height="760" rx="30" fill="url(#sky)"/>
+  <circle cx="1720" cy="118" r="82" fill="#ffd97a" opacity="0.68"/>
+  <path d="M0 378 C220 285 385 360 555 320 C760 270 930 365 1125 315 C1335 260 1545 335 1920 255 L1920 470 L0 470 Z" fill="#b6d3d0" opacity="0.5"/>
+  <path d="M0 430 C205 365 430 415 630 385 C860 350 1035 430 1275 380 C1510 330 1690 390 1920 340 L1920 470 L0 470 Z" fill="#8fb59e" opacity="0.38"/>
 
-  <!-- top identity flow -->
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#263246">
-    <text x="88" y="118" font-size="38" font-weight="500">vanilla</text>
-    <text x="88" y="172" font-size="60" font-weight="760">Linux 7.3</text>
-    <text x="91" y="214" font-size="22" fill="#5d6878">The solid foundation from upstream Linux.</text>
+  <!-- identity row -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#253044">
+    <text x="88" y="105" font-size="52" font-weight="500">vanilla</text>
+    <text x="88" y="175" font-size="82" font-weight="800">Linux 7.3</text>
+    <text x="92" y="221" font-size="28" fill="#5c6878">The solid foundation from upstream Linux.</text>
   </g>
 
-  <g transform="translate(500 118)" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#394456">
-    <path d="M-38 33 h42 l-18 -18 m18 18 -18 18" fill="none" stroke="#77808c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <g transform="translate(70 0)">
-      <circle cx="0" cy="30" r="27" fill="#ffffff" opacity="0.82"/>
-      <path d="M0 12 v36 M-18 30 h36 M-13 17 l26 26 M13 17 l-26 26" stroke="#3e4756" stroke-width="5" stroke-linecap="round"/>
-      <text x="0" y="79" font-size="17" font-weight="650">Policy</text>
+  <!-- flow -->
+  <g transform="translate(575 86)" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#344054">
+    <path d="M-58 58 h48 l-19 -19 m19 19 -19 19" fill="none" stroke="#6f7884" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(64 0)">
+      <circle cx="0" cy="55" r="34" fill="#fff" opacity="0.9"/>
+      <circle cx="0" cy="55" r="14" fill="none" stroke="#344054" stroke-width="7"/>
+      <path d="M0 14v15M0 81v15M-41 55h15M26 55h15M-29 26l11 11M18 73l11 11M29 26L18 37M-18 73l-11 11" stroke="#344054" stroke-width="7" stroke-linecap="round"/>
+      <text x="0" y="121" font-size="24" font-weight="700">Policy</text>
     </g>
-    <text x="140" y="39" font-size="27">+</text>
-    <g transform="translate(210 0)">
-      <rect x="-22" y="8" width="44" height="44" rx="8" fill="#fff" stroke="#475161" stroke-width="3"/>
-      <path d="M-12 20 h24 M-12 30 h24 M-12 40 h16" stroke="#475161" stroke-width="3" stroke-linecap="round"/>
-      <text x="0" y="79" font-size="17" font-weight="650">Config</text>
+    <text x="142" y="66" font-size="34" font-weight="700">+</text>
+    <g transform="translate(222 0)">
+      <rect x="-29" y="25" width="58" height="58" rx="10" fill="#fff" stroke="#344054" stroke-width="4"/>
+      <path d="M-16 42h32M-16 55h32M-16 68h22" stroke="#344054" stroke-width="4" stroke-linecap="round"/>
+      <text x="0" y="121" font-size="24" font-weight="700">Config</text>
     </g>
-    <text x="280" y="39" font-size="27">+</text>
-    <g transform="translate(350 0)">
-      <path d="M0 6 l25 10 v18 c0 17 -11 28 -25 36 c-14 -8 -25 -19 -25 -36 V16 Z" fill="#fff" stroke="#475161" stroke-width="3"/>
-      <path d="M-10 35 l7 8 15 -18" fill="none" stroke="#475161" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="0" y="92" font-size="17" font-weight="650">Validation</text>
+    <text x="300" y="66" font-size="34" font-weight="700">+</text>
+    <g transform="translate(386 0)">
+      <path d="M0 18l31 12v23c0 23-13 38-31 49c-18-11-31-26-31-49V30Z" fill="#fff" stroke="#344054" stroke-width="4"/>
+      <path d="M-13 56l9 10 20-26" fill="none" stroke="#344054" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="134" font-size="24" font-weight="700">Validation</text>
     </g>
-    <text x="425" y="39" font-size="27">+</text>
-    <g transform="translate(500 0)">
-      <rect x="-24" y="34" width="10" height="20" rx="2" fill="#475161"/>
-      <rect x="-7" y="24" width="10" height="30" rx="2" fill="#475161"/>
-      <rect x="10" y="10" width="10" height="44" rx="2" fill="#475161"/>
-      <text x="0" y="79" font-size="17" font-weight="650">Engineering</text>
+    <text x="474" y="66" font-size="34" font-weight="700">+</text>
+    <g transform="translate(566 0)">
+      <rect x="-31" y="59" width="12" height="28" rx="3" fill="#344054"/>
+      <rect x="-9" y="42" width="12" height="45" rx="3" fill="#344054"/>
+      <rect x="13" y="22" width="12" height="65" rx="3" fill="#344054"/>
+      <text x="0" y="121" font-size="24" font-weight="700">Engineering</text>
     </g>
-    <path d="M555 33 h55 l-18 -18 m18 18 -18 18" fill="none" stroke="#77808c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M645 58 h48 l-19 -19 m19 19 -19 19" fill="none" stroke="#6f7884" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <!-- large Tulip identity -->
-  <g transform="translate(1160 46)" filter="url(#shadow)">
-    <g transform="translate(205 6)">
-      <path d="M0 48 C-52 26 -52 -18 -36 -48 C-9 -29 1 -6 0 48 Z" fill="#ff6c8d"/>
-      <path d="M0 48 C52 26 52 -18 36 -48 C9 -29 -1 -6 0 48 Z" fill="#d91868"/>
-      <path d="M0 47 C-26 15 -17 -23 0 -53 C17 -23 26 15 0 47 Z" fill="#ef245e"/>
+  <!-- giant Tulip wordmark -->
+  <g transform="translate(1320 54)" filter="url(#shadow)">
+    <g transform="translate(212 7)">
+      <path d="M0 56C-61 31-61-20-42-57C-11-35 1-7 0 56Z" fill="#ff6f91"/>
+      <path d="M0 56C61 31 61-20 42-57C11-35-1-7 0 56Z" fill="#d20f68"/>
+      <path d="M0 55C-31 18-20-29 0-64C20-29 31 18 0 55Z" fill="#ed245f"/>
     </g>
-    <text x="0" y="178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="150" font-weight="850" fill="url(#tulipText)" letter-spacing="-8">Tulip</text>
-    <text x="14" y="225" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="600" fill="#505a68">Built from Linux. Shaped as Tulip.</text>
+    <text x="0" y="205" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="188" font-weight="900" fill="url(#pink)" letter-spacing="-10">Tulip</text>
+    <text x="14" y="256" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#4d5968">Built from Linux. Shaped as Tulip.</text>
   </g>
 
   <!-- soil -->
-  <path d="M0 490 C165 474 292 502 458 486 C625 470 790 503 957 485 C1137 467 1326 501 1600 480 L1600 680 L0 680 Z" fill="url(#soil)"/>
-  <path d="M0 505 C182 486 345 516 512 499 C710 480 860 521 1057 499 C1262 477 1415 510 1600 494" fill="none" stroke="#9a6a46" stroke-width="8" opacity="0.65"/>
+  <path d="M0 474 C175 456 355 486 550 468 C760 449 943 489 1148 466 C1398 440 1622 490 1920 455 L1920 760 L0 760 Z" fill="url(#soil)"/>
+  <path d="M0 495 C220 470 385 505 600 484 C820 462 1030 511 1240 483 C1480 452 1665 505 1920 476" fill="none" stroke="#9b6c49" stroke-width="10" opacity="0.72"/>
 
   <!-- stage 1 penguin -->
-  <g transform="translate(135 466)">
-    <ellipse cx="0" cy="35" rx="39" ry="55" fill="#202b38"/>
-    <ellipse cx="0" cy="42" rx="25" ry="38" fill="#f6f7f2"/>
-    <circle cx="-12" cy="6" r="5" fill="#fff"/><circle cx="12" cy="6" r="5" fill="#fff"/>
-    <circle cx="-11" cy="7" r="2" fill="#111"/><circle cx="11" cy="7" r="2" fill="#111"/>
-    <path d="M-8 18 L0 27 L8 18 Z" fill="#f2ad34"/>
-    <ellipse cx="-30" cy="82" rx="22" ry="9" fill="#f2ad34" transform="rotate(-8 -30 82)"/>
-    <ellipse cx="30" cy="82" rx="22" ry="9" fill="#f2ad34" transform="rotate(8 30 82)"/>
+  <g transform="translate(150 470)">
+    <ellipse cx="0" cy="58" rx="52" ry="73" fill="#1f2a38"/>
+    <ellipse cx="0" cy="69" rx="33" ry="52" fill="#f7f8f4"/>
+    <circle cx="-16" cy="19" r="7" fill="#fff"/><circle cx="16" cy="19" r="7" fill="#fff"/>
+    <circle cx="-15" cy="20" r="3" fill="#111"/><circle cx="15" cy="20" r="3" fill="#111"/>
+    <path d="M-11 36L0 49L11 36Z" fill="#f4ad31"/>
+    <ellipse cx="-39" cy="118" rx="29" ry="12" fill="#f4ad31" transform="rotate(-8 -39 118)"/>
+    <ellipse cx="39" cy="118" rx="29" ry="12" fill="#f4ad31" transform="rotate(8 39 118)"/>
   </g>
 
-  <!-- stage 2 sprout -->
-  <g transform="translate(445 493)">
-    <path d="M0 58 V13" stroke="#4d8135" stroke-width="8" stroke-linecap="round"/>
-    <path d="M0 29 C-39 24 -48 -5 -47 -14 C-20 -14 -3 1 0 29 Z" fill="url(#leaf)"/>
-    <path d="M0 26 C35 20 44 -6 43 -14 C17 -14 3 1 0 26 Z" fill="url(#leaf)"/>
+  <!-- stage 2 -->
+  <g transform="translate(525 500)">
+    <path d="M0 94V23" stroke="#477a31" stroke-width="11" stroke-linecap="round"/>
+    <path d="M0 49C-56 41-66 2-63-14C-27-13-5 15 0 49Z" fill="url(#leaf)"/>
+    <path d="M0 46C52 36 63 1 59-15C24-13 5 14 0 46Z" fill="url(#leaf)"/>
   </g>
 
-  <!-- stage 3 growing -->
-  <g transform="translate(770 425)">
-    <path d="M0 126 V22" stroke="#4b7d32" stroke-width="10" stroke-linecap="round"/>
-    <path d="M-2 82 C-60 76 -73 30 -69 7 C-27 14 -5 45 -2 82 Z" fill="url(#leaf)"/>
-    <path d="M2 92 C58 84 72 40 66 19 C28 25 7 53 2 92 Z" fill="url(#leaf)"/>
-    <path d="M0 25 C-18 11 -17 -11 0 -25 C17 -11 18 11 0 25 Z" fill="#d94b55"/>
+  <!-- stage 3 -->
+  <g transform="translate(900 432)">
+    <path d="M0 162V25" stroke="#477a31" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-2 106C-74 96-87 40-81 13C-33 22-7 63-2 106Z" fill="url(#leaf)"/>
+    <path d="M2 115C73 103 86 49 79 24C34 31 8 70 2 115Z" fill="url(#leaf)"/>
+    <path d="M0 35C-25 17-24-16 0-35C24-16 25 17 0 35Z" fill="#d74751"/>
   </g>
 
-  <!-- stage 4 bud -->
-  <g transform="translate(1085 382)">
-    <path d="M0 169 V39" stroke="#4b7d32" stroke-width="11" stroke-linecap="round"/>
-    <path d="M-2 119 C-67 111 -79 61 -73 35 C-31 41 -7 77 -2 119 Z" fill="url(#leaf)"/>
-    <path d="M2 128 C64 118 79 69 72 45 C31 51 8 84 2 128 Z" fill="url(#leaf)"/>
-    <path d="M0 52 C-35 32 -34 -25 0 -52 C34 -25 35 32 0 52 Z" fill="url(#petal)"/>
+  <!-- stage 4 -->
+  <g transform="translate(1270 392)">
+    <path d="M0 202V48" stroke="#477a31" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-2 144C-82 133-95 73-88 42C-38 50-8 93-2 144Z" fill="url(#leaf)"/>
+    <path d="M2 151C78 137 95 82 87 52C38 60 10 101 2 151Z" fill="url(#leaf)"/>
+    <path d="M0 63C-42 39-40-31 0-63C40-31 42 39 0 63Z" fill="url(#petal)"/>
   </g>
 
-  <!-- stage 5 full flower -->
-  <g transform="translate(1390 336)" filter="url(#shadow)">
-    <path d="M0 215 V70" stroke="#45762e" stroke-width="13" stroke-linecap="round"/>
-    <path d="M-4 167 C-86 155 -98 90 -89 58 C-38 66 -9 112 -4 167 Z" fill="url(#leaf)"/>
-    <path d="M4 173 C84 158 101 99 92 66 C41 73 11 119 4 173 Z" fill="url(#leaf)"/>
-    <path d="M0 88 C-67 55 -66 -25 -31 -69 C-10 -47 0 -19 0 13 C0 -19 10 -47 31 -69 C66 -25 67 55 0 88 Z" fill="url(#petal)"/>
-    <path d="M0 87 C-37 49 -34 -17 0 -77 C34 -17 37 49 0 87 Z" fill="#ff4d4b" opacity="0.88"/>
+  <!-- stage 5 -->
+  <g transform="translate(1648 343)" filter="url(#shadow)">
+    <path d="M0 251V78" stroke="#3f712b" stroke-width="16" stroke-linecap="round"/>
+    <path d="M-5 192C-103 178-116 101-106 62C-45 72-11 127-5 192Z" fill="url(#leaf)"/>
+    <path d="M5 199C101 182 119 113 110 74C49 84 13 140 5 199Z" fill="url(#leaf)"/>
+    <path d="M0 104C-78 66-77-31-37-83C-12-57 0-22 0 17C0-22 12-57 37-83C77-31 78 66 0 104Z" fill="url(#petal)"/>
+    <path d="M0 101C-44 58-40-21 0-91C40-21 44 58 0 101Z" fill="#ff544e" opacity="0.88"/>
   </g>
 
-  <!-- stage captions -->
+  <!-- dark caption strip for readability -->
+  <rect x="45" y="628" width="1830" height="94" rx="24" fill="#121820" opacity="0.72"/>
   <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">
-    <g transform="translate(135 0)"><text y="603" font-size="22" font-weight="750">1. Upstream</text><text y="632" font-size="17" opacity="0.85">vanilla Linux 7.3</text></g>
-    <g transform="translate(445 0)"><text y="603" font-size="22" font-weight="750">2. A new beginning</text><text y="632" font-size="17" opacity="0.85">A small start from a solid foundation.</text></g>
-    <g transform="translate(770 0)"><text y="603" font-size="22" font-weight="750">3. Growing</text><text y="632" font-size="17" opacity="0.85">Policy · config · validation</text></g>
-    <g transform="translate(1085 0)"><text y="603" font-size="22" font-weight="750">4. Strengthening</text><text y="632" font-size="17" opacity="0.85">Engineering and testing</text></g>
-    <g transform="translate(1390 0)"><text y="603" font-size="24" font-weight="800">5. Tulip</text><text y="632" font-size="17" opacity="0.88">Linux-derived. Evidence-driven.</text></g>
+    <g transform="translate(175 0)"><text y="667" font-size="31" font-weight="800">1. Upstream</text><text y="700" font-size="23" opacity="0.88">vanilla Linux 7.3</text></g>
+    <g transform="translate(525 0)"><text y="667" font-size="31" font-weight="800">2. Beginning</text><text y="700" font-size="23" opacity="0.88">A solid foundation</text></g>
+    <g transform="translate(900 0)"><text y="667" font-size="31" font-weight="800">3. Growing</text><text y="700" font-size="23" opacity="0.88">Policy · config · validation</text></g>
+    <g transform="translate(1270 0)"><text y="667" font-size="31" font-weight="800">4. Strengthening</text><text y="700" font-size="23" opacity="0.88">Engineering · testing</text></g>
+    <g transform="translate(1648 0)"><text y="667" font-size="33" font-weight="900">5. Tulip</text><text y="700" font-size="23" opacity="0.92">Linux-derived · evidence-driven</text></g>
   </g>
 </svg>
