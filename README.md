@@ -6,11 +6,14 @@
 
 <p align="center"><strong>Built from Linux. Shaped as Tulip.</strong></p>
 
+| [🏠 Home](README.md) | [📦 Install](INSTALL.md) | [🌷 Why Tulip](WHY-TULIP.md) | [🛡️ Hardening](HARDENING.md) |
+| --- | --- | --- | --- |
+
 This repository is the **public release storefront** for Linux 7.3 Tulip.
 
 Tulip is based directly on the upstream Linux kernel. It does not replace Linux or claim authorship of upstream Linux source.
 
-[Install](INSTALL.md) · [Tulip vs Linux 7.3](docs/comparison.md) · [FAQ](FAQ.md) · [Alpha 1 Notes](releases/alpha1.md) · [Tulip 1 Record](releases/tulip1.md) · [Source Provenance](SOURCE-PROVENANCE.md) · [Upstream](UPSTREAM.md) · [Security](SECURITY.md) · [Support](SUPPORT.md) · [License](COPYING)
+[Tulip vs Linux 7.3](docs/comparison.md) · [FAQ](FAQ.md) · [Alpha 1 Notes](releases/alpha1.md) · [Tulip 1 Record](releases/tulip1.md) · [Source Provenance](SOURCE-PROVENANCE.md) · [Upstream](UPSTREAM.md) · [Security](SECURITY.md) · [Support](SUPPORT.md) · [License](COPYING)
 
 ---
 
