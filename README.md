@@ -1,5 +1,11 @@
 # Linux 7.3 Tulip — Public Releases 🌷
 
+<p align="center">
+  <img src="assets/tulip-growth-banner.jpg" alt="Tulip growing from upstream Linux 7.3 into the Tulip kernel project" width="100%">
+</p>
+
+<p align="center"><strong>Built from Linux. Shaped as Tulip.</strong></p>
+
 This repository is the **public release storefront** for Linux 7.3 Tulip.
 
 Tulip is based directly on the upstream Linux kernel. It does not replace Linux or claim authorship of upstream Linux source.
