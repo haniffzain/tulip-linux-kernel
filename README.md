@@ -17,6 +17,38 @@ Tulip is based directly on the upstream Linux kernel. It does not replace Linux 
 
 ---
 
+## 🌷 Get Tulip
+
+| ✅ Audited baseline | 🧪 Current downloadable release |
+| --- | --- |
+| **Linux 7.3 Tulip 1** | **Linux 7.3 Tulip 2 Alpha 1** |
+| Historical audited baseline | Pre-release / Alpha / Testing |
+| `M0–M20 PASS VERIFIED` | QEMU-tested public Alpha |
+| Tag identity: `v7.3-tulip1` | Tag: `v7.3-tulip2-alpha1` |
+| [Read the Tulip 1 record](releases/tulip1.md) | **[Download Alpha 1](https://github.com/haniffzain/tulip-linux-kernel/releases/tag/v7.3-tulip2-alpha1)** |
+
+> **Note:** Tulip 1 is currently presented here as the historical audited baseline record. The current public downloadable GitHub release is **Tulip 2 Alpha 1**.
+
+### Start here
+
+| 📦 Install | ❓ FAQ | ⚖️ Compare |
+| --- | --- | --- |
+| Build, install, boot and rollback | Common questions and answers | Tulip vs vanilla Linux 7.3 |
+| **[Open INSTALL.md](INSTALL.md)** | **[Open FAQ.md](FAQ.md)** | **[Read comparison](docs/comparison.md)** |
+
+### Alpha 1 includes
+
+- kernel image (`bzImage`)
+- full build configuration
+- modules archive
+- full source archive
+- `MANIFEST.txt`
+- `SHA256SUMS`
+
+Keep the working kernel supplied by your Linux distribution installed as a fallback while testing Tulip.
+
+---
+
 ## Quick start
 
 Tulip is currently distributed as a source-oriented kernel release. Keep the working kernel supplied by your Linux distribution installed as a fallback while testing Tulip.
@@ -110,7 +142,9 @@ See [`releases/tulip1.md`](releases/tulip1.md).
 
 The current public GitHub Alpha release provides the kernel image, configuration, modules archive, full source archive, manifest and SHA-256 checksum file.
 
-See [`releases/alpha1.md`](releases/alpha1.md).
+**[Open the Alpha 1 GitHub Release](https://github.com/haniffzain/tulip-linux-kernel/releases/tag/v7.3-tulip2-alpha1)**
+
+See [`releases/alpha1.md`](releases/alpha1.md) for the detailed release notes.
 
 ---
 
