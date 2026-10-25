@@ -1,7 +1,7 @@
 # Linux 7.3 Tulip — Public Releases 🌷
 
 <p align="center">
-  <img src="assets/tulip-growth-banner.svg" alt="Tulip growing from upstream Linux 7.3 into the Tulip kernel project" width="100%">
+  <img src="assets/tulip-hero-bouquet.svg" alt="Tux holding a bouquet of tulips beside the separate Tulip growth journey from upstream Linux 7.3" width="100%">
 </p>
 
 <p align="center"><strong>Built from Linux. Shaped as Tulip.</strong></p>
