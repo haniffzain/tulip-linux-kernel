@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-labelledby="title desc">
+  <title id="title">Linux 7.3 Tulip growth banner</title>
+  <desc id="desc">A visual journey from vanilla Linux 7.3 through policy, configuration, validation and engineering into the Tulip kernel project.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f4ff"/>
+      <stop offset="0.52" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#fff0dc"/>
+    </linearGradient>
+    <linearGradient id="tulipText" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3f5f"/>
+      <stop offset="1" stop-color="#d9156f"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5b54"/>
+      <stop offset="0.55" stop-color="#f02e48"/>
+      <stop offset="1" stop-color="#c91752"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#88bd42"/>
+      <stop offset="1" stop-color="#3e7b2d"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#765038"/>
+      <stop offset="1" stop-color="#34241e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2c1c23" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="680" rx="30" fill="url(#sky)"/>
+  <circle cx="1390" cy="120" r="72" fill="#ffd77b" opacity="0.65"/>
+  <path d="M0 405 C180 320 330 390 475 350 C640 305 795 390 970 345 C1165 295 1350 365 1600 290 L1600 500 L0 500 Z" fill="#bdd8d0" opacity="0.46"/>
+  <path d="M0 450 C190 390 340 430 500 405 C690 375 850 445 1045 400 C1240 355 1405 405 1600 360 L1600 500 L0 500 Z" fill="#9bbda6" opacity="0.42"/>
+
+  <!-- top identity flow -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#263246">
+    <text x="88" y="118" font-size="38" font-weight="500">vanilla</text>
+    <text x="88" y="172" font-size="60" font-weight="760">Linux 7.3</text>
+    <text x="91" y="214" font-size="22" fill="#5d6878">The solid foundation from upstream Linux.</text>
+  </g>
+
+  <g transform="translate(500 118)" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#394456">
+    <path d="M-38 33 h42 l-18 -18 m18 18 -18 18" fill="none" stroke="#77808c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(70 0)">
+      <circle cx="0" cy="30" r="27" fill="#ffffff" opacity="0.82"/>
+      <path d="M0 12 v36 M-18 30 h36 M-13 17 l26 26 M13 17 l-26 26" stroke="#3e4756" stroke-width="5" stroke-linecap="round"/>
+      <text x="0" y="79" font-size="17" font-weight="650">Policy</text>
+    </g>
+    <text x="140" y="39" font-size="27">+</text>
+    <g transform="translate(210 0)">
+      <rect x="-22" y="8" width="44" height="44" rx="8" fill="#fff" stroke="#475161" stroke-width="3"/>
+      <path d="M-12 20 h24 M-12 30 h24 M-12 40 h16" stroke="#475161" stroke-width="3" stroke-linecap="round"/>
+      <text x="0" y="79" font-size="17" font-weight="650">Config</text>
+    </g>
+    <text x="280" y="39" font-size="27">+</text>
+    <g transform="translate(350 0)">
+      <path d="M0 6 l25 10 v18 c0 17 -11 28 -25 36 c-14 -8 -25 -19 -25 -36 V16 Z" fill="#fff" stroke="#475161" stroke-width="3"/>
+      <path d="M-10 35 l7 8 15 -18" fill="none" stroke="#475161" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="92" font-size="17" font-weight="650">Validation</text>
+    </g>
+    <text x="425" y="39" font-size="27">+</text>
+    <g transform="translate(500 0)">
+      <rect x="-24" y="34" width="10" height="20" rx="2" fill="#475161"/>
+      <rect x="-7" y="24" width="10" height="30" rx="2" fill="#475161"/>
+      <rect x="10" y="10" width="10" height="44" rx="2" fill="#475161"/>
+      <text x="0" y="79" font-size="17" font-weight="650">Engineering</text>
+    </g>
+    <path d="M555 33 h55 l-18 -18 m18 18 -18 18" fill="none" stroke="#77808c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- large Tulip identity -->
+  <g transform="translate(1160 46)" filter="url(#shadow)">
+    <g transform="translate(205 6)">
+      <path d="M0 48 C-52 26 -52 -18 -36 -48 C-9 -29 1 -6 0 48 Z" fill="#ff6c8d"/>
+      <path d="M0 48 C52 26 52 -18 36 -48 C9 -29 -1 -6 0 48 Z" fill="#d91868"/>
+      <path d="M0 47 C-26 15 -17 -23 0 -53 C17 -23 26 15 0 47 Z" fill="#ef245e"/>
+    </g>
+    <text x="0" y="178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="150" font-weight="850" fill="url(#tulipText)" letter-spacing="-8">Tulip</text>
+    <text x="14" y="225" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="600" fill="#505a68">Built from Linux. Shaped as Tulip.</text>
+  </g>
+
+  <!-- soil -->
+  <path d="M0 490 C165 474 292 502 458 486 C625 470 790 503 957 485 C1137 467 1326 501 1600 480 L1600 680 L0 680 Z" fill="url(#soil)"/>
+  <path d="M0 505 C182 486 345 516 512 499 C710 480 860 521 1057 499 C1262 477 1415 510 1600 494" fill="none" stroke="#9a6a46" stroke-width="8" opacity="0.65"/>
+
+  <!-- stage 1 penguin -->
+  <g transform="translate(135 466)">
+    <ellipse cx="0" cy="35" rx="39" ry="55" fill="#202b38"/>
+    <ellipse cx="0" cy="42" rx="25" ry="38" fill="#f6f7f2"/>
+    <circle cx="-12" cy="6" r="5" fill="#fff"/><circle cx="12" cy="6" r="5" fill="#fff"/>
+    <circle cx="-11" cy="7" r="2" fill="#111"/><circle cx="11" cy="7" r="2" fill="#111"/>
+    <path d="M-8 18 L0 27 L8 18 Z" fill="#f2ad34"/>
+    <ellipse cx="-30" cy="82" rx="22" ry="9" fill="#f2ad34" transform="rotate(-8 -30 82)"/>
+    <ellipse cx="30" cy="82" rx="22" ry="9" fill="#f2ad34" transform="rotate(8 30 82)"/>
+  </g>
+
+  <!-- stage 2 sprout -->
+  <g transform="translate(445 493)">
+    <path d="M0 58 V13" stroke="#4d8135" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 29 C-39 24 -48 -5 -47 -14 C-20 -14 -3 1 0 29 Z" fill="url(#leaf)"/>
+    <path d="M0 26 C35 20 44 -6 43 -14 C17 -14 3 1 0 26 Z" fill="url(#leaf)"/>
+  </g>
+
+  <!-- stage 3 growing -->
+  <g transform="translate(770 425)">
+    <path d="M0 126 V22" stroke="#4b7d32" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-2 82 C-60 76 -73 30 -69 7 C-27 14 -5 45 -2 82 Z" fill="url(#leaf)"/>
+    <path d="M2 92 C58 84 72 40 66 19 C28 25 7 53 2 92 Z" fill="url(#leaf)"/>
+    <path d="M0 25 C-18 11 -17 -11 0 -25 C17 -11 18 11 0 25 Z" fill="#d94b55"/>
+  </g>
+
+  <!-- stage 4 bud -->
+  <g transform="translate(1085 382)">
+    <path d="M0 169 V39" stroke="#4b7d32" stroke-width="11" stroke-linecap="round"/>
+    <path d="M-2 119 C-67 111 -79 61 -73 35 C-31 41 -7 77 -2 119 Z" fill="url(#leaf)"/>
+    <path d="M2 128 C64 118 79 69 72 45 C31 51 8 84 2 128 Z" fill="url(#leaf)"/>
+    <path d="M0 52 C-35 32 -34 -25 0 -52 C34 -25 35 32 0 52 Z" fill="url(#petal)"/>
+  </g>
+
+  <!-- stage 5 full flower -->
+  <g transform="translate(1390 336)" filter="url(#shadow)">
+    <path d="M0 215 V70" stroke="#45762e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M-4 167 C-86 155 -98 90 -89 58 C-38 66 -9 112 -4 167 Z" fill="url(#leaf)"/>
+    <path d="M4 173 C84 158 101 99 92 66 C41 73 11 119 4 173 Z" fill="url(#leaf)"/>
+    <path d="M0 88 C-67 55 -66 -25 -31 -69 C-10 -47 0 -19 0 13 C0 -19 10 -47 31 -69 C66 -25 67 55 0 88 Z" fill="url(#petal)"/>
+    <path d="M0 87 C-37 49 -34 -17 0 -77 C34 -17 37 49 0 87 Z" fill="#ff4d4b" opacity="0.88"/>
+  </g>
+
+  <!-- stage captions -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">
+    <g transform="translate(135 0)"><text y="603" font-size="22" font-weight="750">1. Upstream</text><text y="632" font-size="17" opacity="0.85">vanilla Linux 7.3</text></g>
+    <g transform="translate(445 0)"><text y="603" font-size="22" font-weight="750">2. A new beginning</text><text y="632" font-size="17" opacity="0.85">A small start from a solid foundation.</text></g>
+    <g transform="translate(770 0)"><text y="603" font-size="22" font-weight="750">3. Growing</text><text y="632" font-size="17" opacity="0.85">Policy · config · validation</text></g>
+    <g transform="translate(1085 0)"><text y="603" font-size="22" font-weight="750">4. Strengthening</text><text y="632" font-size="17" opacity="0.85">Engineering and testing</text></g>
+    <g transform="translate(1390 0)"><text y="603" font-size="24" font-weight="800">5. Tulip</text><text y="632" font-size="17" opacity="0.88">Linux-derived. Evidence-driven.</text></g>
+  </g>
+</svg>
