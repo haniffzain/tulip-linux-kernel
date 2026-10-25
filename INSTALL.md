@@ -1,5 +1,9 @@
 # Installing Linux 7.3 Tulip 🌷
 
+[Home](README.md) · **Install** · [Why Tulip](WHY-TULIP.md) · [Hardening](HARDENING.md)
+
+---
+
 Tulip is distributed as a source-oriented Linux kernel release. Keep your existing distribution kernel installed while testing Tulip so you always have a known-good fallback.
 
 ## Before you begin
