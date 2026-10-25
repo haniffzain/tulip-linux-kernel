@@ -4,7 +4,7 @@ This repository is the **public release storefront** for Linux 7.3 Tulip.
 
 Tulip is based directly on the upstream Linux kernel. It does not replace Linux or claim authorship of upstream Linux source.
 
-[Install](INSTALL.md) · [Tulip vs Linux 7.3](docs/comparison.md) · [Alpha 1 Notes](releases/alpha1.md) · [Tulip 1 Record](releases/tulip1.md) · [Source Provenance](SOURCE-PROVENANCE.md) · [Upstream](UPSTREAM.md) · [Security](SECURITY.md) · [Support](SUPPORT.md) · [License](COPYING)
+[Install](INSTALL.md) · [Tulip vs Linux 7.3](docs/comparison.md) · [FAQ](FAQ.md) · [Alpha 1 Notes](releases/alpha1.md) · [Tulip 1 Record](releases/tulip1.md) · [Source Provenance](SOURCE-PROVENANCE.md) · [Upstream](UPSTREAM.md) · [Security](SECURITY.md) · [Support](SUPPORT.md) · [License](COPYING)
 
 ---
 
@@ -15,6 +15,8 @@ Tulip is currently distributed as a source-oriented kernel release. Keep the wor
 ### ➜ [INSTALL.md](INSTALL.md)
 
 The install guide covers source/release assets, configuration, build, modules, kernel installation, initramfs/bootloader considerations, Secure Boot, DKMS, verification and rollback.
+
+New to Tulip or unsure which release to use? See the **[Tulip FAQ](FAQ.md)**.
 
 ---
 
@@ -99,7 +101,7 @@ When testing Tulip on a Linux system, keep the existing distribution kernel inst
 
 ## Repository roles
 
-- **This repository** — public releases, installation guidance, comparison/advantages, source/provenance, licensing and release-facing documentation.
+- **This repository** — public releases, installation guidance, comparison/advantages, FAQ, source/provenance, licensing and release-facing documentation.
 - **Private engineering repository** — development history and ongoing engineering work.
 - The former public engineering repository `haniffzain/tulip-kernel` is retired from canonical use.
 
