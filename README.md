@@ -43,6 +43,36 @@ Main project directions include:
 - **TulipSpeed** — measurement-first performance policy
 - **TulipTest** — additional build/boot/config validation evidence
 
+### Why Tulip Is Hardened
+
+Tulip uses a conservative kernel-hardening approach designed to make exploitation more difficult without turning security into a marketing claim.
+
+Kernel hardening does not mean that Tulip is unhackable or free from vulnerabilities. Instead, it adds defensive layers intended to reduce attack opportunities, limit the impact of memory-safety bugs, and make successful exploitation more difficult.
+
+Tulip currently makes use of established Linux security mechanisms such as:
+
+- strong stack protection
+- strict kernel memory permissions (RWX)
+- kernel address space layout randomization (KASLR)
+- fortified memory and string operations
+- hardened userspace-to-kernel copy checks
+- slab allocator hardening and randomization
+- SELinux support
+- module-signing support
+- fs-verity and dm-verity integrity capabilities
+
+The goal is **defense in depth**.
+
+A vulnerability in a driver or kernel subsystem should not automatically become an easy path to full system compromise. Multiple independent protections increase the amount of work required to turn a bug into a reliable exploit.
+
+Tulip deliberately avoids enabling every possible hardening option simply for the sake of claiming maximum security. Hardening decisions are evaluated together with compatibility, reliability, toolchain requirements, performance, and actual test evidence.
+
+In short:
+
+> **Harder to exploit. Safer when things go wrong. Practical to run.**
+
+Security is treated as an engineering property to be tested and maintained — not a promise that vulnerabilities can never exist.
+
 Tulip does **not** currently claim to be universally faster or universally more secure than vanilla Linux 7.3.
 
 ### ➜ [Read the full Tulip vs Vanilla Linux 7.3 comparison](docs/comparison.md)
